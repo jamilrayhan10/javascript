@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Programming hero javascript task</title>
+  </head>
+  <body>
+    <section>
+      <div class="student_information_area">
+        <h2>City Bank Gift</h2>
+        <div class="student_form">
+          <!-- <form> -->
+          <input
+            id="student_name"
+            type="text"
+            placeholder="student name"
+            required
+          />
+          <input
+            id="birth_year"
+            type="text"
+            placeholder="birth year"
+            required
+          />
+          <input
+            id="current_year"
+            type="text"
+            placeholder="current year"
+            required
+          />
+          <input id="district" type="text" placeholder="district" required />
+          <input id="post_no" type="text" placeholder="post no" required />
+          <input id="priority" type="text" placeholder="priority" required />
+          <button onclick="cardDistribution()" id="submit_btn">submit</button>
+          <!-- </form> -->
+        </div>
+        <div class="student_list">
+          <h2>student list</h2>
+          <div id="inner_student_list"></div>
+        </div>
+      </div>
+      <div class="box_animation">
+        <div class="loader">
+          <span style="--i: 1"></span>
+          <span style="--i: 2"></span>
+          <span style="--i: 3"></span>
+          <span style="--i: 4"></span>
+          <span style="--i: 5"></span>
+          <span style="--i: 6"></span>
+          <span style="--i: 7"></span>
+          <span style="--i: 8"></span>
+          <span style="--i: 9"></span>
+          <span style="--i: 10"></span>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
